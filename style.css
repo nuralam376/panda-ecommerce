@@ -1,14 +1,7 @@
+/* General Style */
+
 .container {
 	margin-bottom: 100px;
-}
-
-.orange-bg {
-	background-color: #feeae9;
-	border-radius: 10px;
-}
-
-.carousel-item {
-	padding: 20px 40px;
 }
 
 .price {
@@ -24,3 +17,47 @@
 	border-radius: 10px;
 	cursor: pointer;
 }
+
+/*  General style ends */
+
+/* Carousel */
+.orange-bg {
+	background-color: #feeae9;
+	border-radius: 10px;
+}
+
+.carousel-item {
+	padding: 20px 40px;
+}
+
+/* Carousel ends */
+
+/* Categories starts */
+
+.cat1,
+.cat2,
+.cat3 {
+	padding: 10px 30px;
+	border-radius: 10px;
+}
+
+.cat1 {
+	background-image: linear-gradient(to right, #ffa132 0%, #ffd019 100%);
+}
+
+.cat2 {
+	background-image: linear-gradient(to right, #ff458f 0%, #ff4790 100%);
+}
+
+.cat3 {
+	background-image: linear-gradient(to right, #427bfe 0%, #3f07f8 100%);
+}
+
+.categories h1 {
+	color: white;
+}
+
+.categories img {
+	width: 90px;
+}
+/* Categories ends */
