@@ -69,4 +69,9 @@
 	box-shadow: 5px 5px 10px lightgray;
 }
 
+.card-footer {
+	border: none;
+	background-color: white;
+}
+
 /* Card ends */
